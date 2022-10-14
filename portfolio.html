@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Shane Brown | Portfolio</title>
+</head>
+<body id="body">
+    <!-- Header and Links -->
+    <a href="index.html"><img src="amLogoWhite.png" style="z-index: 9999; width: 80px; top: -5px; position: fixed;" class="pageLogo"></a>
+    <h2 class="headerName">Shane Brown</h2>
+    <div class="header" id="header"></div>
+    
+    <div class="links" id="links">
+        <section class="p-menu1">
+            <nav id="navbar" class="navigation" role="navigation">
+            <input id="toggle1" type="checkbox" />
+            <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+            </label>
+            <nav class="menu1" id="menu1">
+                <a class="link1" href="index.html">Home</a>
+                <a class="link1" href="about.html">About</a>
+                <a class="link1" href="portfolio.html">Portfolio</a>
+                <a class="link1" href="service.html">Service</a>
+                <a class="link1" href="qual.html">Qualifications</a>
+                <a class="link1"><label class="toggleSwitch">
+                    <input type="checkbox" id ="toggleButton" onclick="toggleDarkMode()">
+                    <span class="toggle" id="toggle"></span>
+                  </label></a>
+              </nav>
+          </nav>
+          </section>
+    </div>
+
+    <!-- Body -->
+    <div class="bodyName">
+        <H1>My Portfolio</H1>
+    </div>
+
+    <div class="bodyInfo">    
+
+        <p class="githubLink" style="font-size: 3vmin;">
+            <b>Check out my GitHub! <br></b> <br>
+            <a href="https://github.com/shanebrown013?tab=repositories" target="_blank"><button class="bt"> View Github! </button></a>
+        </p>
+
+        <div class="grid-container">
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>MEGSO Tracker</b>
+                </div>
+                <br>
+                <img src="MEGSO.png" alt="MEGSOLOGO" style="width:70%; border-radius: 5px;">
+                <br><br>
+                User interface for the student organization Mechanical Engineering Graduate Student Organization (MEGSO) that 
+                allows users to sign in for attendance, keep in touch with alumni in the org, and allows the users to 
+                stay updated on current/future events. Additionally, allows users to earn points for attending 
+                events. Using Ruby on Rails, Agile, Docker, HTML, JavaScript, and CSS
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>"Juego" Website</b>
+                </div>
+                <br>
+                <img src="Juego.png" alt="Assembler/DisassemblerHACK" style="width:80%; border-radius: 5px;">
+                <br><br>
+                While using Agile methodology, my team and I developed a website like "Tinder" for gamers. This was a
+                small project we worked that allowed me to use google firebase, SQL, React, CSS, APIs (such as GoogleOAuth), 
+                and JavaScript. The user creates an account and profile which adds them to the database and allows other users to see
+                their card with their gaming information. If they swipe right, they can visit their profile later to add them. Swiping left 
+                moves to the next person in the stack.
+                <div class="viewCode">
+                   <a href="https://github.com/shanebrown013/juegoMatch" target="_blank" ><button class="bt">View Code!</button></a>
+                   <a href="https://juegomatch.firebaseapp.com/" target="_blank" ><button class="bt">View Webpage!</button></a>
+                </div>
+                
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>HACK Assembler / <br>Disassembler</b>
+                </div>
+                <br>
+                <img src="binary.jpg" alt="Assembler/DisassemblerHACK" style="width:70%; border-radius: 5px;">
+                <br><br>
+                Using C++, I built a HACK assembler and disassembler. The assembler will read in the symbolic HACK assembly language (from input files) and
+                convert it into HACK machine code, creating an output file. In addition, the disassembler does the opposite
+                and reads a 15-bit binary number and converts it back into the symbolic assembly language, creating an output file.
+                <div class="viewCode">
+                   <a href="https://github.com/shanebrown013/HACKAssemblerDisassembler" target="_blank" ><button class="bt">View Code!</button></a>
+                </div>
+                
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                   <br>
+                   <b>Greedy Algorithm - Elevation Levels</b>
+                </div>
+                <br>
+                <img src="greedyPic.png" alt="GreedyAlgorithm" style="width:70%; border-radius: 5px;">
+                <br><br>
+                This takes in elevation points of data from provided .dat files (or the user can make their own), stores them in a vector, 
+                converts them into shades of gray, displays the paths taken (in red), and clarifies the "best" path (in green) utilizing the greedy algorithm.
+                <div class="viewCode">
+                   <a href="https://github.com/shanebrown013/greedy" target="_blank" ><button class="bt">View Code!</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>First Website from Scratch</b>
+                </div>
+                <br>
+                <img src="firstWebsite.PNG" alt="FirstWebsite" style="width:70%; border-radius: 5px;">
+                <br><br>
+                This is a website I built from scratch in December of 2020 using only HTML and CSS. I like to link this to display how far I have come and 
+                view the improvements I have made. This website is a very basic portfolio webpage that I made to get my foot in the door while 
+                experimenting with HTML and CSS. The webpage is not updated, it is strictly for viewing my personal developer progress.
+                <div class="viewCode">
+                   <a href="https://shanebrown013.github.io" target="_blank" ><button class="bt">View Webpage!</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>Bulls and Cows Game</b>
+                </div>
+                <br>
+                <img src="bulls_and_cows.png" alt="BullsAndCows" style="width:70%; border-radius: 5px;">
+                <br><br>
+                This is a game where the user guesses a randomly generated code (only 3, 4, or 5 digits long). Each number is unique. 
+                When the user inputs their guess, they get in return the number of bulls and cows within their answer. 
+                A cow means one of the numbers are correct, but it is in the wrong spot. A bull means one of the numbers is present in the code and is in the correct spot.
+                <div class="viewCode">
+                   <a href="https://github.com/shanebrown013/BullsAndCowsGame" target="_blank" ><button class="bt">View Code!</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="projectTitle">
+                    <br>
+                   <b>Backend Library Database</b>
+                </div>
+                <br>
+                <img src="Library.jpg" alt="LibraryDatabase" style="width:70%; border-radius: 5px;">
+                <br><br>
+                This is a backend library interface. The user has the option to add books (records) to a "library", 
+                search for a book in the library, delete a book, print the database, import a database from a file, or 
+                export the database into a new file.
+                <div class="viewCode">
+                   <a href="https://github.com/shanebrown013/BackendLibraryInterface" target="_blank" ><button class="bt">View Code!</button></a>
+                </div>
+            </div>
+            
+            <br><br><br>
+            <br><br>
+
+        </div>
+        <p class="githubInfo" style="font-size: 3vmin;">
+            <b>Check out my Github for other projects! <br></b> <br>
+            
+        </p>
+         <p class="copyright"> © Shane Brown 2021 </p>
+    </div>
+    <script src="portfolio.js"></script>
+
+    
+</body>
+</html>
